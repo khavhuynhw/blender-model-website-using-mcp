@@ -45,7 +45,7 @@ scene.add(rimLight);
 scene.add(new THREE.HemisphereLight(0xffffff, 0x222233, 0.5));
 
 const loader = new GLTFLoader();
-const modelUrl = './redDice.gltf';
+const modelUrl = '/redDice.gltf';
 
 viewer.dataset.loading = 'Đang tải mô hình...';
 

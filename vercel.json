@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/(.*\\.(gltf|bin|glb))",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "model/gltf+json"
+        }
+      ]
+    }
+  ]
+}
+
